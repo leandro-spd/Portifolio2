@@ -9,9 +9,12 @@ html {
 }
 
 body {
-  background-color: var(--cor-fundo-cinza-escuro);
+  background-color: #000000;
   font-family: var(--fonte-primaria);
   font-size: var(--fonte-normal);
+  margin: 0;
+
+  
 }
 
 .container {

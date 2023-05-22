@@ -15,6 +15,6 @@ function getRandomColor() {
   }
   
   // Intervalo de tempo para atualizar a cor de fundo (2000ms = 2 segundos)
-  setInterval(updateBackgroundColor, 2000);
+  setInterval(updateBackgroundColor, 1500);
  
   

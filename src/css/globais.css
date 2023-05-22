@@ -84,9 +84,22 @@ body {
   padding: 10px 20px;
   border-radius: 20px;
   transition: all 0.3s ease;
-  background-color: var(--cor-primaria);
+  background-color: #014b04d8;
+  box-shadow: 0 0 10px #02ff02, 0 0 20px #32fc00, 0 0 20px #d92211;
+  animation: blink 1.2s infinite;
 }
-
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.5;
+    
+  }
+  80% {
+    opacity: 1;
+  }
+}
 .botao:hover {
   background-color: var(--cor-secundaria);
   color: var(--cor-branca);
